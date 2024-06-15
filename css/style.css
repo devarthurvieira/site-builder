@@ -13,7 +13,7 @@
 
 .poppins-bold {
     font-family: "Poppins", sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
   }
 
@@ -45,9 +45,22 @@ header a:hover{
 
 .logosite{
     position: relative;
-        right: 25px;
+        right: 20px;
 }
 
 .dropdown-bg{
     background-color: #F3FBFF;
 }
+
+.dropdown-bg a:hover{
+    color: #347AA1;
+}
+
+/* MAIN */
+
+.bannertopo{
+    background-image: url(/images/fundo-banner.jpg);
+    background-position: center;
+}
+
+
