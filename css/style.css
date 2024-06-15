@@ -1,3 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F3FBFF;
+}
+
+body a{
+    color: #3b3a3a;
+    text-decoration: none;
+}
+
+body a:hover{
+    color: #3b3a3a;
+    text-decoration: none;
+}
+
 /* FONTES */
 .poppins-light {
     font-family: "Poppins", sans-serif;
@@ -32,7 +51,7 @@
 /* HEADER */
 
 header{
-    background-color: #F3FBFF;
+    background-color: white;
 }
 
 header a{
@@ -57,10 +76,84 @@ header a:hover{
 }
 
 /* MAIN */
-
+    /* banner */
 .bannertopo{
     background-image: url(/images/fundo-banner.jpg);
     background-position: center;
 }
+
+    /* empreendimentos */
+.label-emp{
+    background-color: #7A8581;
+    color: white;
+    padding: 7px;
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;
+    position: relative;
+        top: 19px;
+}
+
+.nome-emp{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+.botao-conhecer{
+    margin: 0 auto;
+}
+
+#empreendimentos .btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn-light{
+    border: solid #347AA1 1.5px;
+}
+
+/* CUSTOMIZACAO BARRA DE SCROL NAVEGADOR */
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #347AA1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #347AA1;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #347AA1;
+}
+
+* {
+    scrollbar-width: 10px;
+    scrollbar-color: #347aa1 #8fa9b8;
+}
+
+*::-moz-scrollbar {
+    width: 12px;
+}
+
+*::-moz-scrollbar-track {
+    background-color: #8fa9b8;
+}
+
+*::-moz-scrollbar-thumb {
+    background-color: #8fa9b8;
+    border-radius: 6px;
+}
+
+*::-moz-scrollbar-thumb:hover {
+    background-color: #8fa9b8;
+}
+
 
 
