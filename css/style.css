@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +9,7 @@
 
 body{
     background-color: #F3FBFF;
+    
 }
 
 body a{
@@ -75,6 +80,17 @@ header a:hover{
     color: #347AA1;
 }
 
+.nav-site{
+    background-color: #347AA1;
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.nav-site a{
+    color: white;
+}
+
 /* MAIN */
     /* banner */
 .bannertopo{
@@ -112,6 +128,47 @@ header a:hover{
 
 .btn-light{
     border: solid #347AA1 1.5px;
+}
+
+.banner-emp1{
+    background-image: url(/images/capa-empreendimento1.jpg);
+    background-position: center;
+}
+
+.banner-emp2{
+    background-image: url(/images/capa-empreendimento2.jpg);
+    background-position: right bottom;
+}
+
+.banner-emp3{
+    background-image: url(/images/capa-empreendimento3.jpg);
+    background-position: center left;
+}
+
+.capa-emp1{
+    background-image: url(/images/capa-empreendimento1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.capa-emp2{
+    background-image: url(/images/capa-empreendimento2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.capa-emp3{
+    background-image: url(/images/capa-empreendimento3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.capa-blog1{
+    background-image: url(/images/blog-1.jpg);
+    background-position: center;
+    width: 100%;
+    height: 125px;
+    border: solid 1px white;
 }
 
 /* CUSTOMIZACAO BARRA DE SCROL NAVEGADOR */
@@ -155,5 +212,127 @@ header a:hover{
     background-color: #8fa9b8;
 }
 
+.btn-hover-effect:hover {
+    transform: scale(1.06); 
+    box-shadow: 0 0 5px #347AA1; 
+  }
 
+.btn-hover-effect2:hover {
+    transform: scale(1.06); 
+    box-shadow: 0 0 5px #347AA1; 
+  }
+
+.btn-width-100 {
+    width: 100%;
+}
+
+/* FOOTER */
+footer{
+    background-color: #347AA1;
+    color: white;
+}
+
+footer a{
+    color: white;
+}
+
+.detalhe{
+    background-color: #347AA1;
+    border-radius: 10px;
+}
+
+.emp:hover{
+    transform: scale(1.02); 
+}
+
+.label-servico{
+    width: 70%;
+    border: solid 2px #347AA1;
+    margin: 0 auto;
+    position: relative;
+        bottom: 30px;
+    font-size: 20px;
+}
+
+.capa-contrucao{
+    width: 90%;
+    height: 250px;
+    border: solid 1px white;
+}
+
+.imgfundo-contrucao{
+    background-image: url(/images/fundo-contrucao.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.imgfundo-contrucao2{
+    background-image: url(/images/fundo-contrucao.jpg);
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+}
+
+.capa-reforma{
+    width: 90%;
+    height: 250px;
+    border: solid 1px white;
+}
+
+.imgfundo-reforma{
+    background-image: url(/images/capa-reforma.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.imgfundo-laudo{
+    background-image: url(/images/capa-laudos.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.imgfundo-projetos{
+    background-image: url(/images/capa-projetos.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.imgfundo-laudos{
+    background-image: url(/images/fundo-laudos.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-sobre{
+    background-image: url(/images/sobre.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.imgfundo-sustentabilidade{
+    background-image: url(/images/sustentabilidade.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.imgfundo-importancia{
+    background-image: url(/images/importancia-construcao.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.imgfundo-normas{
+    background-image: url(/images/normas.jpg);
+    background-size: cover;
+    background-position: top;
+}
 

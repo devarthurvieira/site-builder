@@ -1,0 +1,31 @@
+# Bloqueia todos os rastreadores de acessar arquivos confidenciais
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /register/
+
+# Permite todos os rastreadores de acessar o site
+User-agent: *
+Allow: /
+
+# Bloqueia todos os rastreadores de acessar arquivos específicos
+Disallow: /images/logo.png
+Disallow: /images/firewall.ico
+
+# Bloqueia todos os rastreadores de acessar pastas específicas
+Disallow: /css/
+Disallow: /js/
+Disallow: /fonts/
+
+# Permite todos os rastreadores de acessar páginas específicas
+Allow: /empreendimentos.html
+Allow: /construcao.html
+Allow: /reforma.html
+Allow: /laudos.html
+Allow: /projetos.html
+Allow: /sobre-nos.html
+Allow: /blog.html
+Allow: /contato.html
+
+# Sitemap do site
+Sitemap: https://www.construtorabuilder.com/sitemap.xml
