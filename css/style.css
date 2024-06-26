@@ -131,18 +131,54 @@ header a:hover{
 }
 
 .banner-emp1{
+    position: relative;
     background-image: url(/images/capa-empreendimento1.jpg);
     background-position: center;
 }
 
 .banner-emp2{
-    background-image: url(/images/capa-empreendimento2.jpg);
+    position: relative;
+    background-image: url(/images/capa-empreendimento2.png);
     background-position: right bottom;
 }
 
 .banner-emp3{
+    position: relative;
     background-image: url(/images/capa-empreendimento3.jpg);
-    background-position: center left;
+    background-position: center;
+}
+
+.banner-emp3::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Ajuste a opacidade conforme necessário */
+    z-index: 0;
+}
+
+.banner-emp2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Ajuste a opacidade conforme necessário */
+    z-index: 0;
+}
+
+.banner-emp1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Ajuste a opacidade conforme necessário */
+    z-index: 0;
 }
 
 .capa-emp1{
@@ -152,7 +188,7 @@ header a:hover{
 }
 
 .capa-emp2{
-    background-image: url(/images/capa-empreendimento2.jpg);
+    background-image: url(/images/capa-empreendimento2.png);
     background-size: cover;
     background-position: center;
 }
@@ -161,14 +197,6 @@ header a:hover{
     background-image: url(/images/capa-empreendimento3.jpg);
     background-size: cover;
     background-position: center;
-}
-
-.capa-blog1{
-    background-image: url(/images/blog-1.jpg);
-    background-position: center;
-    width: 100%;
-    height: 125px;
-    border: solid 1px white;
 }
 
 /* CUSTOMIZACAO BARRA DE SCROL NAVEGADOR */
@@ -267,9 +295,21 @@ footer a{
 }
 
 .imgfundo-contrucao2{
+    position: relative;
     background-image: url(/images/fundo-contrucao.jpg);
     background-size: cover;
     background-position: center bottom;
+}
+
+.imgfundo-contrucao2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Ajuste a opacidade conforme necessário */
+    z-index: 0;
 }
 
 .bottom-right {
@@ -289,27 +329,63 @@ footer a{
 }
 
 .imgfundo-reforma{
+    position: relative;
     background-image: url(/images/capa-reforma.jpg);
     background-size: cover;
     background-position: center;
 }
 
+.imgfundo-reforma::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Ajuste a opacidade conforme necessário */
+    z-index: 0;
+}
+
 .imgfundo-laudo{
+    position: relative;
     background-image: url(/images/capa-laudos.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .imgfundo-projetos{
+    position: relative;
     background-image: url(/images/capa-projetos.jpg);
     background-size: cover;
     background-position: center;
+}
+
+.imgfundo-projetos::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Ajuste a opacidade conforme necessário */
+    z-index: 0;
 }
 
 .imgfundo-laudos{
     background-image: url(/images/fundo-laudos.jpg);
     background-size: cover;
     background-position: center;
+}
+
+.imgfundo-laudo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Ajuste a opacidade conforme necessário */
+    z-index: 0;
 }
 
 .img-sobre{
@@ -319,9 +395,27 @@ footer a{
 }
 
 .imgfundo-sustentabilidade{
-    background-image: url(/images/sustentabilidade.jpg);
+    background-image: url(/images/sustentabilidade.webp);
     background-size: cover;
     background-position: center;
+}
+
+.imgfundo-sustentabilidadeblog{
+    position: relative;
+    background-image: url(/images/sustentabilidade.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.imgfundo-sustentabilidadeblog::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Ajuste a opacidade conforme necessário */
+    z-index: 0;
 }
 
 .imgfundo-importancia{
@@ -330,9 +424,45 @@ footer a{
     background-position: center;
 }
 
+.imgfundo-importanciablog{
+    position: relative;
+    background-image: url(/images/importancia-construcao.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.imgfundo-importanciablog::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Ajuste a opacidade conforme necessário */
+    z-index: 0;
+}
+
+
 .imgfundo-normas{
     background-image: url(/images/normas.jpg);
     background-size: cover;
     background-position: top;
 }
 
+.imgfundo-normasblog{
+    position: relative;
+    background-image: url(/images/normas.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.imgfundo-normasblog::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Ajuste a opacidade conforme necessário */
+    z-index: 0;
+}
